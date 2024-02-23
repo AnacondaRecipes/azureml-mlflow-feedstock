@@ -20,6 +20,16 @@ requirements:
     - wheel
   run:
     - python
+    - six
+    - cryptography
+    - mlflow-skinny
+    - azure-identity
+    - azure-common
+    - azure-core >=1.8.0,<2.0.0,!=1.22.0
+    - azure-mgmt-core >=1.2.0,<2.0.0
+    - azure-storage-blob >=12.5.0,<=12.19.0
+    - python-dateutil >=2.7.3,<3.0.0
+    - msrest >=0.6.18
 
 test:
   requires:
