@@ -39,6 +39,10 @@ test:
   imports:
     - azureml
     - azureml.mlflow
+    - azure.core
+    - azure.mgmt.core
+    - azure.storage.blob
+    - mlflow
 
 about:
   home: https://pypi.org/project/azureml-mlflow
