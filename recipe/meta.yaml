@@ -7,6 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/py3/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}-py3-none-any.whl
+  sha256: 048cd60c483d778b1f52fc219a32c925706dceac871d829946099609959c0eef
 
 build:
   number: 0
