@@ -10,7 +10,7 @@ source:
 
 build:
   number: 0
-  script: {{ PYTHON }} -m pip install . --no-deps --no-build-isolation -vv
+  script: {{ PYTHON }} -m pip install -vv {{ name }}-{{ version }}-py3-none-any.whl
 
 requirements:
   host:
@@ -33,7 +33,7 @@ about:
   home: https://pypi.org/project/azureml-mlflow
   license: Microsoft Online Subscription Agreement
   license_family: Other
-  license_file: LICENSE
+  license_file:
   summary: Azure Machine Learning SDK allows to build and run machine learning workflows with Azure Machine Learning
            services.
   description: |
