@@ -1,5 +1,5 @@
---- METADATA	2024-02-23 19:59:42.113969609 +0100
-+++ METADATA	2024-02-23 19:59:44.738215960 +0100
+--- ./azureml_mlflow-1.55.0/azureml_mlflow-1.55.0.dist-info/METADATA	2024-02-23 19:59:42.113969609 +0100
++++ ./azureml_mlflow-1.55.0/azureml_mlflow-1.55.0.dist-info/METADATA	2024-02-23 19:59:44.738215960 +0100
 @@ -22,7 +22,6 @@
  Requires-Python: >=3.7,<4.0
  Description-Content-Type: text/x-rst

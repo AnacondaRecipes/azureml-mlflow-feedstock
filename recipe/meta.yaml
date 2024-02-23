@@ -10,9 +10,6 @@ source:
 
 build:
   number: 0
-  script: {{ PYTHON }} -m pip install -vv {{ name }}-{{ version }}-py3-none-any.whl
-  patches:
-    - 0001-remove-unused-dependency.patch
 
 requirements:
   build:
