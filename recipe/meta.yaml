@@ -15,6 +15,7 @@ build:
 
 requirements:
   host:
+    # patch tools are in host section since they are necessary only during execution of build script
     - patch     # [not win]
     - m2-patch  # [win]
     - python
