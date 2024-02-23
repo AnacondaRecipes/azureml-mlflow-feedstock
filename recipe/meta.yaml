@@ -27,7 +27,8 @@ test:
   commands:
     - pip check
   imports:
-    - azureml-mlflow
+    - azureml
+    - azureml.mlflow
 
 about:
   home: https://pypi.org/project/azureml-mlflow
