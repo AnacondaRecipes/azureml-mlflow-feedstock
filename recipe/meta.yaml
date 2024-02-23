@@ -50,7 +50,7 @@ test:
 
 about:
   home: https://pypi.org/project/azureml-mlflow
-  license: Microsoft Online Subscription Agreement
+  license: MOSA
   license_family: Other
   license_file: azureml_mlflow-1.55.0.dist-info/LICENSE.txt
   summary: Azure Machine Learning SDK allows to build and run machine learning workflows with Azure Machine Learning
