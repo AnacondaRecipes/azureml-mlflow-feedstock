@@ -13,6 +13,7 @@ build:
   number: 0
   # skipping because of missing mlflow-skinny for s390x
   skip: True  # [s390x]
+  script: build.bat  # [win]
 
 requirements:
   host:
