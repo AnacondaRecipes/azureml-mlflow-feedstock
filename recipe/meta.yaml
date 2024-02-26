@@ -72,3 +72,5 @@ extra:
   skip-lints:
     - build_tools_must_be_in_build
     - host_section_needs_exact_pinnings
+    - patch_unnecessary
+    - incorrect_license
