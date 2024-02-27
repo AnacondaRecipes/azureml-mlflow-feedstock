@@ -1,4 +1,4 @@
-{% set name = "azureml_mlflow" %}
+{% set name = "azureml-mlflow" %}
 {% set version = "1.55.0" %}
 
 package:
