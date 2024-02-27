@@ -16,9 +16,6 @@ build:
 
 requirements:
   host:
-    # patch tools are in host section since they are necessary only during execution of build script
-    - patch     # [not win]
-    - m2-patch  # [win]
     - python
     - pip
     - wheel
@@ -28,6 +25,7 @@ requirements:
     - cryptography
     - mlflow-skinny
     - azure-identity
+    - jsonpickle
     - azure-common >=1.1,<2.0.0
     - azure-core >=1.8.0,<2.0.0,!=1.22.0
     - azure-mgmt-core >=1.2.0,<2.0.0
