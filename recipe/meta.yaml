@@ -28,7 +28,7 @@ requirements:
     - cryptography
     - mlflow-skinny
     - azure-identity
-    - azure-common
+    - azure-common >=1.1,<2.0.0
     - azure-core >=1.8.0,<2.0.0,!=1.22.0
     - azure-mgmt-core >=1.2.0,<2.0.0
     - azure-storage-blob >=12.5.0,<=12.19.0
