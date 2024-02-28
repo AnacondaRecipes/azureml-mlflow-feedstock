@@ -12,7 +12,7 @@ source:
 build:
   number: 0
   # skipping because of missing mlflow-skinny for s390x
-  skip: True  # [s390x]
+  skip: True  # [s390x or py>=312]
 
 requirements:
   host:
