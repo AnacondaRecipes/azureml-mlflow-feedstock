@@ -1,1 +1,1 @@
-%PYTHON% -m pip install -vv --no-deps --no-build-isolation %PKG_NAME%-%PKG_VERSION%-py3-none-any.whl
+%PYTHON% -m pip install -vv --no-deps --no-build-isolation azureml_mlflow-%PKG_VERSION%-py3-none-any.whl
