@@ -1,4 +1,5 @@
 {% set name = "azureml-mlflow" %}
+{% set alt_name = name.replace('-', '_') %}
 {% set version = "1.55.0" %}
 
 package:
@@ -6,7 +7,7 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/py3/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}-py3-none-any.whl
+  url: https://pypi.io/packages/py3/{{ name[0] }}/{{ alt_name }}/{{ alt_name }}-{{ version }}-py3-none-any.whl
   sha256: 048cd60c483d778b1f52fc219a32c925706dceac871d829946099609959c0eef
 
 build:
